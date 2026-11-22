@@ -23,7 +23,7 @@ void ReplaceInFile(std::string &filename, std::string &s1, std::string s2)
     std::ifstream ifs(filename.c_str());
     if (!ifs.is_open())
     {
-        std::cerr << "Error : Could not open file" << filename << std::endl;
+        std::cerr << "Error : Could not open file " << filename << std::endl;
         return;
     }
     std::ofstream ofs((filename + ".replace").c_str());
