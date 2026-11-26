@@ -12,6 +12,6 @@ int main()
     harl.complain("WARNING");
     std::cout << "ERROR MESSAGE : " << std::endl;
     harl.complain("ERROR");
-    harl.complain("NIMP");
+    harl.complain("ANYTHING");
     return (0);
 }
